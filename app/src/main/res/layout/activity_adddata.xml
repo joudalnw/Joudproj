@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Add_data">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_marginBottom="50dp"
+        android:text="Firebase Form"/>
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_fname"
+        android:textSize="20sp"
+        android:hint="First Name"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_lname"
+        android:textSize="20sp"
+        android:hint="Last Name"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_email"
+        android:textSize="20sp"
+        android:hint="Your Email"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_phone"
+        android:textSize="20sp"
+        android:hint="Phone Number"
+        android:layout_marginBottom="15dp"
+        android:textColor="#000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/add_submit"
+        android:textSize="20sp"
+        android:text="Add to Firebase"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_back"
+        android:textSize="20sp"
+        android:text="Back"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
